@@ -1,0 +1,33 @@
+a
+{
+    text-decoration:none;
+    color:black;
+}
+a:hover
+{
+    color:#C36431;
+}
+.icon
+{
+    display:inline-block
+}
+.icon:hover
+{
+    transform:translateY(-2px);
+}
+.you:hover
+{
+    color:red;
+}
+.tw:hover
+{
+    color: rgb(39, 148, 202)
+}
+.fb:hover
+{
+    color:rgba(0, 0, 255, 0.781)
+}
+.pin:hover
+{
+    color:rgb(136, 24, 24);
+}

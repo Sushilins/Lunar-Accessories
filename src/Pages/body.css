@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;300;400;200;&family=Roboto+Mono:wght@300;400&family=Roboto:wght@300;400&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+.black
+{
+    color: #000406;
+    font-size: 74px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 3px;
+}
+.ora
+{
+    color:rgb(226, 119, 19)
+}
+h5
+{
+    color: #000406;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+.para
+{
+    top:20%;
+    left:7%;
+}
+.click
+{
+    background:#C36431;
+    color:white;
+    border-radius:0px!important;
+    letter-spacing:2px;
+    position:relative;
+    z-index:1;
+    transition:color 300ms ease-in-out;
+}
+.click::before
+{
+    content:'';
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:-1;
+    background-color:black;
+    transition: transform 300ms ease-in-out;
+    transform:scaleX(0);
+    transform-origin:left;
+}
+.click:hover
+{
+    color:white;
+}
+.click:hover::before,.click:focus::before
+{
+    transform:scaleX(1);
+}
+.bg-secondary
+{
+    background:rgb(214, 212, 212)!important;
+}
+.h
+{
+    height:94.4vh;
+}
+.ima
+{
+    width:58%;
+    position:absolute;
+    right:0px;
+}
+.imag
+{
+    width:58%;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+}
+.in
+{
+    color: #01273a;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+.insp
+{
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1.3em;
+}
+.sins
+{
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1.3em;
+    font-weight:bold;   
+    color:#C36431;
+}
+.rea
+{
+    flex-wrap:wrap;
+    overflow: hidden;
+}
+.CTopsover
+{
+    flex-grow:1.5;
+    overflow:hidden;
+}
+.OutCollover
+{
+    flex-grow:2;
+    overflow:hidden;
+}
+.PartyEventsover
+{
+    flex-grow:2;
+    overflow:hidden;
+}
+.TrendyLinover
+{
+    flex-grow:1.5;
+    overflow:hidden;
+}
+.CTops
+{
+    height: 300px;
+    background-image: url(http://concave.me/shayotheme/wp-content/uploads/2022/05/post6.jpg);
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    transition:0.3s;
+}
+.CTops:hover
+{
+    transform: scale(1.03);
+}
+.OutColl
+{
+    height: 300px;
+    background-image: url(http://concave.me/shayotheme/wp-content/uploads/2022/06/jeans.jpg);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:0.3s;
+}
+.PartyEvents
+{
+    height: 300px;
+    background-image: url(http://concave.me/shayotheme/wp-content/uploads/2022/06/necto2.jpg);
+    background-size: cover;
+    transition:0.3s;
+}
+.TrendyLin
+{
+    height: 300px;
+    background-image: url(http://concave.me/shayotheme/wp-content/uploads/2022/04/3-4.jpg);
+    background-position: top center;
+    background-size: cover;
+    transition:0.3s;
+}
+.OutColl:hover
+{
+    transform: scale(1.03);
+}
+.PartyEvents:hover
+{
+    transform: scale(1.03);
+}
+.TrendyLin:hover
+{
+    transform: scale(1.03);
+}
+.CTopspos
+{
+    top:27%;
+    left:4%;
+}
+.OutCollpos
+{
+    left:47%;
+    top:27%;
+}
+.PartyEventspos
+{
+    bottom:37%;
+    left:4%;
+}
+.TrendyLinpos
+{
+    bottom:37%;
+    left:60%;
+}
+.rit
+{
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing:-1px;
+    font-family: 'Barlow', sans-serif;
+    font-weight:300;
+}
+.Maru
+{
+    color:white;
+}
+.Marus
+{
+    letter-spacing: 2px;
+    font-weight: 500;
+    color:white;
+    font-size:1rem;
+}
+.Marusf
+{
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size:1rem;
+}
+.dd
+{
+    position:relative;
+    text-decoration:none;
+    color:#000406;
+}
+.dd::before
+{
+    position:absolute;
+    content:"";
+    width:100%;
+    height:3px;
+    bottom:-5px;
+    left:0;
+    color:#C36431;
+    background-color: #C36431;
+    transform: scaleX(0);
+    transition:all .3s ease-in-out 0s;
+}
+.dd:hover:before
+{
+    transform:scaleX(1);
+}
+.cali
+{
+    color: #01273a;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+.cali1
+{
+    font-size: 54px;
+    font-weight: 400;
+}
+.den
+{
+    color:#C36431;
+}
+.seu
+{
+    max-width:100%;
+    max-height:100vh;
+}
+.just
+{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing:0px;
+}
+.wi100
+{
+    max-width:100%;
+    height:100%;
+}
+.ita
+{
+    font-family: 'Lilita One', cursive;
+    font-size:36px;
+    letter-spacing: 0px;
+}
+.muc
+{
+    border:none;
+    padding:3px 10px;
+    background:#b46032;
+    color:white;
+}
+.muc:hover
+{
+    background:white;
+    color:black;
+}
+.pods
+{
+    width:400px;
+    height:80vh;
+}
+.wewwx
+{
+ width:80%;
+ height:75%;
+}

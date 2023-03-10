@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Tilt+Neon&display=swap');
+*{
+  text-decoration:none;
+  list-style:none;
+  font-family: 'Roboto', sans-serif;
+}
+.d{
+    text-decoration:none;
+    color:black;
+}
+.pain
+{
+    height:4vh;
+}
+.d:hover
+{
+    color:black;
+}
+.box
+{  
+    width: 15%;
+}
+.icon
+{
+    display:inline-block
+}
+.icon:hover
+{
+    transform:translateY(-2px);
+}
+.you:hover
+{
+    color:red;
+}
+.tw:hover
+{
+    color: rgb(39, 148, 202)
+}
+.fb:hover
+{
+    color:rgba(0, 0, 255, 0.781)
+}
+.pin:hover
+{
+    color:rgb(136, 24, 24);
+}
+a
+{
+    color:grey;
+}
+.icon1:hover
+{
+    color:rgb(216, 129, 47);
+}
+.modal
+{
+    border:0px !important;
+    background:white!important;
+}
+.Se
+{
+    position:absolute;
+    top:5px;
+    right:-30px;
+}
+.cart-trolley-link
+{
+    position:relative;
+}
+.cart-trolley
+{
+    position: relative;
+}
+.cart-total--item
+{
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    color: rgb(216, 129, 47);
+    border-radius:50%;
+    display:grid;
+    place-items: center; 
+    top:-20%;
+    right:-48%;
+    background: #D6D4D4;
+    font-size:0.8rem;
+}
+.mobile-navbar-btn
+{
+    display:none;
+    background-color: transparent;
+    cursor: pointer;
+    border:none;
+}
+.mobile-nav-icon[name="menu-outline"]
+{
+    display:none;
+}
+.close-outline
+{
+    display:none;
+}
